@@ -1,18 +1,18 @@
-import React from "react";
+import React from 'react';
 
 export type LineProps = React.DetailedHTMLProps<
-    React.HTMLAttributes<HTMLDivElement>,
-    HTMLDivElement
+  React.HTMLAttributes<HTMLDivElement>,
+  HTMLDivElement
 > &
-    Partial<{
-        className: string;
-    }>;
+  Partial<{
+    className: string;
+  }>;
 
 const Line: React.FC<React.PropsWithChildren<LineProps>> = ({
-    className,
-    ...restProps
+  className,
+  ...restProps
 }) => {
-    return <div className={className} {...restProps} />;
+  return <div className={className} {...restProps} />;
 };
 
 export { Line };

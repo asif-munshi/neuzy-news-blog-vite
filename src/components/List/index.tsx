@@ -1,24 +1,24 @@
-import React from "react";
+import React from 'react';
 
 export type ListProps = React.DetailedHTMLProps<
-    React.HTMLAttributes<HTMLDivElement>,
-    HTMLDivElement
+  React.HTMLAttributes<HTMLDivElement>,
+  HTMLDivElement
 > &
-    Partial<{
-        className: string;
-        orientation: string;
-    }>
+  Partial<{
+    className: string;
+    orientation: string;
+  }>;
 
 const List: React.FC<React.PropsWithChildren<ListProps>> = ({
-    children,
-    className,
-    ...restProps
+  children,
+  className,
+  ...restProps
 }) => {
-    return (
-        <div className={className} {...restProps}>
-            {children}
-        </div>
-    )
-}
+  return (
+    <div className={className} {...restProps}>
+      {children}
+    </div>
+  );
+};
 
 export { List };
