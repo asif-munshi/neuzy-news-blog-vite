@@ -2,11 +2,11 @@ import { Line, Text } from '../../components';
 
 const Footer = () => {
   return (
-    <footer className="flex w-full items-center justify-center md:px-5">
+    <footer className="flex w-full items-center justify-center">
       <div className="flex w-full flex-col items-center justify-center bg-black-900 p-[60px] md:px-10 sm:px-5">
         <div className="flex w-full max-w-[1290px] flex-col items-center justify-center gap-[53px]">
           <div className="flex w-full flex-row items-start justify-between md:flex-col md:gap-10">
-            <div className="flex w-[23%] flex-col items-start justify-start gap-[22px]">
+            <div className="flex w-[23%] flex-col items-start justify-start gap-[22px] md:w-full">
               <Text
                 className="text-2xl tracking-[-0.50px] text-white-A700 md:text-[22px] sm:text-xl"
                 size="txtInterSemiBold24WhiteA700"

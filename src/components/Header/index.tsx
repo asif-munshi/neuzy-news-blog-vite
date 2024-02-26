@@ -6,7 +6,7 @@ const Header = () => {
   const navigate = useNavigate();
 
   return (
-    <header className="flex w-full items-center justify-center md:px-5">
+    <header className="flex w-full items-center justify-center">
       <div className="flex w-full flex-row items-center justify-center bg-bluegray-900 p-[26px] sm:px-5">
         <div className="ml-12 flex max-w-[1296px] flex-row items-center justify-center md:flex-col md:gap-5">
           <Text

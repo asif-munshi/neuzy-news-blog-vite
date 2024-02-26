@@ -26,15 +26,14 @@ const LatestSection = () => {
       <div className="flex w-full flex-row items-center justify-between md:flex-col md:gap-[50px]">
         <div className="flex w-[43%] flex-col items-start justify-start md:w-full md:flex-1">
           <div
-            className="flex h-[270px] w-full flex-col items-center justify-start rounded-xl bg-cover bg-no-repeat"
+            className="flex h-[270px] w-full flex-col items-center justify-start rounded-xl bg-cover bg-no-repeat drop-shadow-lg md:h-[420px]"
             style={{
-              backgroundImage: "url('images/img_group38.png')",
-              height: '100%'
+              backgroundImage: "url('images/img_group38.png')"
             }}
           >
-            <div className="flex w-full flex-col justify-end gap-[189px] rounded-xl bg-gradient p-[15px] md:gap-10">
+            <div className="flex w-full flex-col justify-end gap-[189px] rounded-xl bg-gradient p-[15px] md:h-full md:justify-between md:gap-10">
               <Button
-                className="ml-[423px] mr-[9px] mt-[9px] min-w-[88px] cursor-pointer text-center text-xs font-bold leading-[normal] tracking-[0.12px] md:ml-[0]"
+                className="ml-auto mr-[9px] mt-[9px] min-w-[88px] cursor-pointer text-center text-xs font-bold leading-[normal] tracking-[0.12px]"
                 shape="square"
                 color="deep_orange_A400"
                 size="xs"
@@ -42,7 +41,7 @@ const LatestSection = () => {
                 Hot Topic
               </Button>
               <Text
-                className="ml-2 mr-[376px] text-sm tracking-[-0.50px] text-white-A700 md:ml-[0]"
+                className="ml-2 mr-auto text-sm tracking-[-0.50px] text-white-A700 md:ml-[0]"
                 size="txtInterRegular14"
               >
                 Ukraine, 24 april 2022
@@ -83,12 +82,12 @@ const LatestSection = () => {
           </Button>
         </div>
         <List
-          className="flex h-full w-[54%] flex-col justify-between gap-20"
+          className="flex h-full w-[54%] flex-col justify-between gap-20 md:w-full"
           orientation="vertical"
         >
           <div className="my-0 flex w-full flex-row items-center justify-between gap-[22px] md:flex-col">
             <Img
-              className="h-[229px] rounded-lg object-cover md:h-auto"
+              className="h-[229px] rounded-lg object-cover drop-shadow-lg md:h-auto"
               src="images/img_unsplashj5keq1.png"
               alt="unsplashj5kEQOne"
             />
@@ -136,7 +135,7 @@ const LatestSection = () => {
           </div>
           <div className="my-0 flex w-full flex-row items-center justify-between gap-[22px] md:flex-col">
             <Img
-              className="h-[229px] rounded-lg object-cover md:h-auto"
+              className="h-[229px] rounded-lg object-cover drop-shadow-lg md:h-auto"
               src="images/img_unsplashl2p8f.png"
               alt="unsplashL2p8f"
             />

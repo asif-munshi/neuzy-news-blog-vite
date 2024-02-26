@@ -6,7 +6,7 @@ const HeroSection = () => {
       <div className="flex w-full flex-col items-center justify-start gap-[50px]">
         <div className="flex w-full flex-row items-center justify-between gap-10 md:flex-col md:gap-[50px]">
           <Img
-            className="h-[255px] rounded-lg object-cover md:h-auto"
+            className="h-[255px] rounded-lg object-cover drop-shadow-lg md:h-auto"
             src="images/img_rectangle5.png"
             alt="RectangleFive"
           />
@@ -65,7 +65,7 @@ const HeroSection = () => {
           >
             <div className="flex w-full flex-row items-center justify-between gap-2.5 sm:ml-[0] sm:flex-col">
               <Img
-                className="h-full w-[84px] rounded object-cover md:h-auto"
+                className="h-full w-[84px] rounded object-cover drop-shadow-lg md:h-auto"
                 src="images/img_rectangle1479.png"
                 alt="Rectangle1479"
               />
@@ -94,7 +94,7 @@ const HeroSection = () => {
             </div>
             <div className="flex w-full flex-row items-center justify-between gap-2.5 sm:ml-[0] sm:flex-col">
               <Img
-                className="h-full w-[84px] rounded object-cover md:h-auto"
+                className="h-full w-[84px] rounded object-cover drop-shadow-lg md:h-auto"
                 src="images/img_rectangle1479_84X84.png"
                 alt="Rectangle1479 One"
               />
@@ -124,7 +124,7 @@ const HeroSection = () => {
           </List>
           <div className="flex w-[31%] flex-row items-center justify-between gap-2.5 md:w-full md:flex-1 sm:flex-col">
             <Img
-              className="h-[97px] w-[84px] rounded object-cover md:h-auto"
+              className="h-[97px] w-[84px] rounded object-cover drop-shadow-lg md:h-auto"
               src="images/img_rectangle1479_1.png"
               alt="Rectangle1479 Two"
             />
